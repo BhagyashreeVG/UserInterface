@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>Responsive Image</h2>
+<p>When the CSS width property is set in a percentage value, the image will scale up and down when resizing the browser window. Resize the browser window to see the effect.</p>
+
+<img src="./images/img_girl.jpg" style="width:100%;">
+
+<picture>
+    <source srcset="./images/img-car.jpg" media="(max-width: 600px)">
+    <source srcset="./images/img_food.jpg" media="(max-width: 1500px)">
+    <source srcset="./images/workplace.jpg">
+    <img src="./images/img_girl.jpg" alt="Flowers">
+</picture>
+
+</body>
+</html>
