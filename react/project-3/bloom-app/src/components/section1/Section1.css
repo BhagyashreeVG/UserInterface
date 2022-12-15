@@ -1,0 +1,23 @@
+.section-1-main {
+    padding: 60px 100px 60px 100px;
+    display: flex;
+    background-color: rgb(233, 230, 230);
+}
+
+.section-1-content {
+    padding-right: 40px;
+    text-align: left;
+}
+
+.section-1-image img{
+    width: 600px;
+    height: 300px;
+}
+
+.section-1-left {
+    padding-bottom: 66px;
+}
+
+.section-1-content h2 {
+    margin-top: 0;
+}

@@ -1,0 +1,71 @@
+.content-container {
+    display: flex;
+   justify-content: space-around;
+}
+
+.card {
+    width: 15rem;
+    height: 24rem;
+    background-color: rgb(189, 178, 178);
+    border: 5px solid gray;
+    border-radius: 10px;
+    display: flex;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.card-1{
+    align-items: center;
+    
+}
+
+.card-3 {
+    align-items: center;
+}
+
+.card-2 {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-2 .header,
+.card-2 .footer,
+.card-2 .article {
+    width: 80%;
+}
+
+.article {
+    background-color: rgb(189, 178, 178);
+    border: 5px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px;
+    height: 5rem;
+}
+
+.card .header,
+.card .footer {
+    height: 0;
+}
+
+.card .article {
+    height: 26%;
+}
+
+.card .footer {
+    margin-top: 0;
+}
+
+.card .header {
+    margin-bottom: 0;
+}

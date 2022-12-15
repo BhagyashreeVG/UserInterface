@@ -1,0 +1,11 @@
+.section-2-content {
+    display: flex;
+}
+
+.section-2-main {
+    padding: 50px 100px 50px 100px;
+}
+
+.section-2-head {
+    text-align: left;
+}

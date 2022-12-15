@@ -1,0 +1,23 @@
+.employee-data {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+table tr:nth-child(even){
+    background-color: blueviolet; 
+}

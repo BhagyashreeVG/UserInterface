@@ -1,0 +1,17 @@
+.header {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgb(59, 172, 134);
+    color: white;
+    height: 140px;
+    font-size: 30px;
+    border-bottom: 15px solid white;
+    font-weight: 700;
+    text-align: center;
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

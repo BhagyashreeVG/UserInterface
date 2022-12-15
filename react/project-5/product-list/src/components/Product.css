@@ -1,0 +1,24 @@
+.product-card {
+    /* display: flex;
+    flex-direction: column; 
+    height: 50%;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.product-card img {
+    width: 300px;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer {
+    background-color: rgb(128, 0, 85);
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}

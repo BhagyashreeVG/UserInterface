@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    height: 7rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bloom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    width: 7rem;
+}

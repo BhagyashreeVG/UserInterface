@@ -1,0 +1,12 @@
+.content {
+    background-color: rgb(59, 172, 134);
+    color: white;
+    height: 450px;
+    font-weight: 700;
+    font-size: 30px;
+    flex: 0 0 70%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

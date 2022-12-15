@@ -1,0 +1,15 @@
+.section-2-article-main {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 385px;
+}
+
+.section-2-article-main img {
+    width: 355px;
+}
+
+.section-2-article-text {
+    text-align: left;
+    padding-bottom: 20px;
+}
