@@ -1,0 +1,82 @@
+
+body {
+    background-color: aqua;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+.margin-left-3 {
+    margin-left: 3rem;
+}
+.conatainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.left-pane{
+    background-color: #fff;
+    width: 60%;
+    height: 100vh;
+    color: indigo;
+}
+
+.right-pane{
+    background-color: blue;
+    width: 40%;
+    height: 100vh;
+    color: white;
+}
+
+.right-pane h2, .left-pane h2 {
+    margin-left: 3rem;
+}
+
+table tr td {
+    padding: 1.5rem;
+    font-size: 20px;
+}
+
+form {
+    margin: 0 3rem 3rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-elements-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.form-elements-container label {
+    margin-bottom: 1rem;
+}
+
+.form-elements-container input {
+    width: 90%;
+}
+
+.primary-btn {
+    background-color: blue;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 24px;
+    border: none;
+}
+
+.input-elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
