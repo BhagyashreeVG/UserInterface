@@ -1,0 +1,68 @@
+.container {
+    background-color: rgb(118, 199, 231);
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 9rem;
+}
+
+.calculator {
+    width: 40%;
+    height: 800px;
+    background-color: rgb(177, 173, 173);
+    border-radius: 1rem;
+}
+
+.images {
+    width: 30%;
+    height: 300px;
+}
+
+header {
+    width: 90%;
+    height: 100px;
+    color: rgb(118, 199, 231);
+    background-color: rgb(80, 78, 78);
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.numbers div {
+    width: 78%;
+    margin: 1rem;
+    background-color: #e7ebe7;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.numbers span {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    font-size: 5rem;
+    color: rgb(122, 119, 119);
+}
+
+.green-bg {
+    background-color: #a0eba0 !important;
+}
+
+.yellow-bg {
+    background-color: rgb(238, 238, 133) !important;
+}
+.images img:last-child {
+    margin-left: 8rem
+}
