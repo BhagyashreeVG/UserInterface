@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(233, 233, 210);
+}
+
+form {
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.element-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.element-container label {
+    font-size: 2rem;
+}
+
+.element-container input {
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.element-btn-container input{
+    width: 10%;
+    height: 60px;
+    background-color: rgb(107, 199, 107);
+    border-radius: 0.9rem;
+    color: white;
+    font-size: 2rem;
+    border: none;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+table {
+    width: 80%;
+    height: 170px;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding-left: 1rem;
+}
+
+td .btn-blue {
+    width: 22%;
+    height: 40px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+td .btn-red {
+    width: 22%;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+}
+
