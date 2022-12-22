@@ -1,0 +1,103 @@
+.black-container {
+    background-color: black;
+    width: 40%;
+    height: 130vh;
+    margin: auto;
+    padding: 2rem;
+}
+
+.indigo-container {
+    background-color: rgba(56, 89, 128, 0.863);
+    height: 125vh;
+    border: 13px solid orange;
+    border-radius: 1rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.form-container .text-input, .form-container .signup-btn, .dob-input {
+    width: 80%;
+    margin: auto;
+}
+
+.signup-btn {
+    height: 70px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
+.text-input {
+    margin-top: 2rem !important;
+    height: 50px;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: 0.3rem;
+}
+
+.dob-label {
+    font-size: 1.8rem;
+    color: white;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dob-input {
+    height: 50px;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: 0.3rem;
+}
+
+.radio-input {
+    display: flex;
+    margin: auto;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.radio-input label {
+    margin-right: 2rem;
+    color: white;
+}
+
+.radio-input input {
+    width: 1.5rem;
+    margin-right: 1rem;  
+}
+
+.checkbox-input, .submit-btn {
+    margin-top: 2rem !important
+}
+
+.checkbox-input {
+    width: 80%;
+    margin: auto;
+}
+
+.checkbox-input input{
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+}
+
+.checkbox-input label {
+    font-size: 2.2rem;
+    font-style: italic;
+    margin-left: 0.4rem;
+    color: white;
+}
