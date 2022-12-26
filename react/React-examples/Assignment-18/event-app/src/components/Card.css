@@ -1,0 +1,30 @@
+.card {
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: white;
+    position: relative;
+}
+
+.card h3, .card div {
+    margin: 0.7rem;
+}
+
+.card h3 {
+    font-family: "Comic Sans", cursive;
+}
+.see-more-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 1.2rem;
+    height: 2rem;
+    width: 6rem;
+    border: none;
+}
+
+.see-more-div {
+    position: absolute;
+    bottom: 0;
+    left: 3.5rem;
+}

@@ -1,0 +1,23 @@
+export const images = [
+    {
+        name:"../../images/icon-1.svg"
+    },
+    {
+        name:"../../images/icon-2.svg"
+    },
+    {
+        name:"../../images/icon-3.svg"
+    },
+    {
+        name:"../../images/icon-4.svg"
+    },
+    {
+        name:"../../images/icon-5.svg"
+    },
+    {
+        name:"../../images/icon-6.svg"
+    },
+    {
+        name:"../../images/icon-7.svg"
+    }
+];
