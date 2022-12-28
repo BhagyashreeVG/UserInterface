@@ -1,0 +1,27 @@
+.form-container {
+    width: 50%;
+    margin: auto;
+}
+
+.element-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;;
+}
+
+.element-container label {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    background-color: #ff5c82;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,23 @@
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+.product {
+    margin-bottom: 2rem;
+}
+
+.product-image {
+    width: 225px;
+    height: 225px;
+    border-radius: 0.7rem;
+}
+.product-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0.5rem;
+}
