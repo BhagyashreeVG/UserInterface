@@ -1,0 +1,33 @@
+.view-task-container {
+    border: 2px solid black;
+    height: 48.2vh;
+    margin: 1rem;
+    width: 20%;
+    color: black;
+}
+
+.view-task-container h3 {
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+}
+
+.view-task-container table {
+    width: 100%;
+}
+
+.status-item {
+    text-align: left;
+}
+
+.btn-delete {
+    background: #282c34;
+    color: white;
+    font-weight: 600;
+}
+
+input::placeholder, select option{
+    color: #282c34;
+    font-weight: 600;
+    opacity: 0.5
+}

@@ -1,0 +1,13 @@
+.completed-task-container {
+    border: 2px solid black;
+    height: 48.2vh;
+    margin: 1rem;
+    width: 20%;
+    color: black;
+}
+
+.completed-task-container h3 {
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+}
